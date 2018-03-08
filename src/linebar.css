@@ -1,0 +1,173 @@
+/*
+Created by Jack Leslie
+GitHub @jackjdl
+
+Usage:
+
+<span class="A B X Y Z"></span>
+
+A: orientation (horizontal)
+B: thickness (thick, normal, thin, etc.)
+X: horizontal position and padding (left-short, centre-short, right-long, etc.)
+Y: vertical padding (upper-short, upper-long, lower-long, etc.)
+X: colour (red, turquoise, navy, blond, seaweed, platinum)
+*/
+
+
+.horizontal {
+  display: block;
+  background-color: white;
+  margin-bottom: 20px;
+
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+
+}
+
+/*
+Thickness
+*/
+
+.super-thick {
+  height: 15px;
+}
+
+.thick {
+  height: 10px;
+}
+
+.normal {
+  height: 5px;
+}
+
+.thin {
+  height: 3px;
+}
+
+.super-thin {
+  height: 2px;
+}
+
+.ultra-thin {
+  height: 1px;
+}
+
+/*
+Left
+*/
+
+.left-long {
+  width: 80%;
+}
+
+.left-mid {
+  width: 50%;
+}
+
+.left-short {
+  width: 30%;
+}
+
+/*
+Right
+*/
+
+.right-long {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.right-mid {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.right-short {
+  width: 30%;
+  margin-left: 70%;
+}
+
+/*
+Centre
+*/
+
+.centre-long {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.centre-mid {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.centre-short {
+  width: 30%;
+  margin-left: 35%;
+}
+
+/*
+Extreme Widths
+*/
+
+.max {
+  width: 100%;
+}
+
+/*
+Padding
+*/
+
+.upper-short {
+  margin-top: 15px;
+}
+
+.upper-mid {
+  margin-top: 20px;
+}
+
+.upper-long {
+  margin-top: 25px;
+}
+
+.lower-short {
+  margin-top: -15px;
+}
+
+.lower-mid {
+  margin-top: -20px;
+}
+
+.lower-long {
+  margin-top: -25px;
+}
+
+/*
+Colour
+*/
+
+.red {
+  background-color: #ed6a5a; /* Terra Cotta */
+}
+
+.turquoise {
+  background-color: #9bc1bc; /* Cambridge Blue */
+}
+
+.navy {
+  background-color: #304d6d; /* Independence */
+}
+
+.blond {
+  background-color: #f4f1bb; /* Blond */
+}
+
+.seaweed {
+  background-color: #087e8b; /* Metallic Seaweed */
+}
+
+.platinum {
+  background-color: #e6ebe0; /* Platinum */
+}
