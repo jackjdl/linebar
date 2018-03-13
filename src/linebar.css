@@ -148,8 +148,16 @@ Padding
 Colour
 */
 
-.red {
+.pink {
   background-color: #ed6a5a; /* Terra Cotta */
+}
+
+.red {
+  background-color: #A31621; /* Cornell Red */
+}
+
+.yellow {
+  background-color: #EC9A29; /* Carrot Orange */
 }
 
 .turquoise {
